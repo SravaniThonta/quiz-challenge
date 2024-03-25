@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCQ Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="start-screen">
+    <div style="text-align: center; margin-bottom: 2em;">
+      <span style="color: rgb(255, 255, 255); font-size: 24px; text-transform: uppercase;">TAKE THE QUIZ</span>
+    </div>
+    <button id="start-button">Start Here</button>
+  </div>
+  <div id="display-container">
+    <div class="header">
+      <div class="number-of-count">
+        <span class="number-of-question">1 of 10 questions</span>
+      </div>
+      <div class="timer-div">
+        <img src="timer-icon.svg" alt="Timer icon">
+        <span class="time-left">10s</span>
+      </div>
+    </div>
+    <div id="quiz-content"></div>
+    <button id="next-button">Next</button>
+  </div>
+  <div class="score-container hide">
+    <div id="user-score"></div>
+    <button id="restart">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
