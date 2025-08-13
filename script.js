@@ -1,6 +1,6 @@
 // JavaScript code here
 //References
-let timeLeft = document.querySelector(".time-left");
+let timeLeft = document.querySelector("#timer");
 let quizContainer = document.getElementById("quiz-content");
 let nextBtn = document.getElementById("next-button");
 let countOfQuestion = document.querySelector(".number-of-question");
